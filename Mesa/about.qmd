@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+Hey, My name is Akhil Bellamkonda. I am a current freshman in Plainfield. You can contact me with akhilbelllamkonda@gmail.com. 
+Github account:https://github.com/akhilbelllamkonda
+
+My project is about the rise of crimes occuring between males and females in Mesa, Arizona. Github Repo: https://github.com/akhilbelllamkonda/Mesa_Statistics
+
+This project was created as a part of Kane’s Data Science Bootcamp.
+Link: https://bootcamp.davidkane.info/

@@ -1,0 +1,23 @@
+--- 
+title: Statistical Info
+---  
+```{r}
+#| label: setup 
+#| message: false 
+library(tidyverse) 
+library(brms) 
+library(tidybayes)
+mesa_data <- read_csv('/Users/chittibellamkonda/Downloads/az_mesa_2023_01_26.csv')
+```
+
+```{r}
+#| label: model 
+#| cache: true 
+df1 <- mesa_data |>    select(subject_sex, arrest_made, date)  
+brm(data = df1, formula = arrest_made ~ subject_sex + date, family = bernoulli(),silent = 2,refresh = 0,seed = 13)
+```
+
+```{r}
+
+```
+
